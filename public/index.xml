@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>2026 Accountability</title>
+      <link>http://localhost:1313/blog/2026-accountability/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/2026-accountability/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/2026-accountability/featured.png" />
+    </item>
+    
+    <item>
       <title>An Introduction</title>
       <link>http://localhost:1313/blog/an-introduction/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
@@ -37,6 +47,16 @@
       <guid>http://localhost:1313/blog/template-rename/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/template-rename/featured.png" />
+    </item>
+    
+    <item>
+      <title>What actually is ‘Personal Branding’?</title>
+      <link>http://localhost:1313/blog/what-is-personal-branding/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/what-is-personal-branding/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/what-is-personal-branding/featured.png" />
     </item>
     
   </channel>
