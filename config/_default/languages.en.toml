@@ -11,5 +11,5 @@ rtl = false
 dateFormat = "2 January 2006"
 description = "Personal Branding, Poetry, and Ponderings"
 
-["params.author"]
+[author]
 name = "Isi Turner"
