@@ -33,15 +33,16 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "page"
+layout = "background"
 showRecent = true
 showRecentItems = 6
 showMoreLink = false
 showMoreLinkDest = "/blog/"
 cardView = true
 cardViewScreenWidth = false
-layoutBackgroundBlur = false
+layoutBackgroundBlur = true
 disableHeroImageFilter = false
+homepageImage = "background.png"
 
 [article]
 showDate = true
@@ -59,7 +60,7 @@ showEdit = false
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
-showPagination = true
+showPagination = false
 invertPagination = false
 showReadingTime = true
 showTableOfContents = true
@@ -73,18 +74,18 @@ showRelatedContent = true
 relatedContentLimit = "3"
 
 [list]
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
-showSummary = false
+showSummary = true
 showViews = false
 showLikes = false
 showTableOfContents = false
-showCards = false
+showCards = true
 orderByWeight = false
 groupByYear = true
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
 

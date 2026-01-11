@@ -1,12 +1,10 @@
----
-title: "2026 Accountability"
-date: "2026-01-09"
-draft: true #Dont forget to switch this to false
-description: "A short description or the first few lines"
-tags: ["tag1", "tag2"]
----
-
-# 2026 Accountability
++++
+title = '2026 Accountability'
+date = '2026-01-09'
+draft = true #Dont forget to switch this to false
+description = "A short description or the first few lines"
+tags = ["tag1", "tag2"]
++++
 
 One thing you should know about me: I *love* new years. I love the feeling of starting afresh, growing and setting new intentions and goals. I was that kid who liked a new school year purely to buy a bunch of new stationary. 
 
