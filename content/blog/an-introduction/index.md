@@ -1,6 +1,6 @@
 ---
 title: "An Introduction"
-date: "2026-01-09"
+date: "2026-01-08"
 draft: true
 summary: "I’m on a packed train, typing in my notes app. My notes app is full of lists, half-baked ideas, and half-written poems, but maybe that’s a blog for another day."
 tags: ["intro", "notes"]
