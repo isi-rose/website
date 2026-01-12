@@ -13,7 +13,7 @@ I recently did an internal workshop on personal branding. Prior to that, I worke
 
 My journey with personal branding - and marketing as a whole - is a little unconventional. Which, if you know me, fits in with my brand in a lovely ironic way. 
 
-I finished my degree (in Film and English Literature) during covid, and wanted to work in TV production. Except, there was no TV in production because of covid. So, I started applying for marketing jobs, knowing that I have a good eye for design and I’m a good writer. I happened to get a job at a data consultancy (Simpson Associates), throwing me into a world of jargon I didn’t understand. After a couple of years there, I moved to Advancing Analytics, where I’ve been for 3 years. Somewhere along the way, I was also diagnosed with ADHD, changed my pronouns, and moved to Glasgow.
+I finished my degree (in Film and English Literature) during covid, and wanted to work in TV production. Except, there was no TV in production because of covid. So, I started applying for marketing jobs, knowing that I have a good eye for design and I’m a good writer. I happened to get a job at a data consultancy, throwing me into a world of jargon I didn’t understand. After a couple of years, I moved to Advancing Analytics, where I’ve been for 3 years. Somewhere along the way, I was also diagnosed with ADHD, got a ginger tabby cat (Baked Bean), and moved to Glasgow.
 
 It was at Advancing that I started speaking at data conferences, which was a surprising turn of events for the kid who used to shy away from any and all attention. But I *love* it. My first talk was at SQLBits, and I went on to speak at Fabric February and FabCon Europe twice. Clearly I don’t do things by halves. 
 
@@ -27,6 +27,6 @@ My conference sessions meant I already had personal brand of neurodivergence and
 
 Then I realised I wanted to create carousels and graphics, and had absolutely no template. So, my personal brand got some colours and a pattern, and I started being more intentional with posting and sharing my knowledge and opinions. 
 
-Instead of starting by building a personal brand and then writing conference sessions around it, I did the opposite - and to be honest, I think a lot of people do the same. Personal branding sounds a little wanky and fluffy, and personally, I think many people who don’t have a personal brand have a “this has worked for me so far, why would I change it” perspective. But this doesn’t take into account the benefits personal branding can have, with relatively little effort. 
+Instead of starting by building a personal brand and then writing conference sessions around it, I did the opposite - and to be honest, I think a lot of people do the same. Personal branding sounds a little wanky and fluffy, and personally, I think many people who don’t have a personal brand have a “this has worked for me so far, why would I change it” perspective. But that doesn’t take into account the benefits personal branding can have, with relatively little effort. 
 
-This blog will be a place for me to share long form content on personal branding, as well as digital marketing as a whole. And who knows, maybe you’ll get an insight into my notes app too.
+This blog will be a place for me to share long form content on personal branding and digital marketing as a whole. And who knows, maybe you’ll get an insight into my notes app too.
