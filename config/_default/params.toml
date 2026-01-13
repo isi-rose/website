@@ -33,7 +33,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "custom"
 showRecent = true
 showRecentItems = 6
 showMoreLink = false

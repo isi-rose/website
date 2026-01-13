@@ -1,0 +1,121 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article class="prose dark:prose-invert max-w-full">
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+    <div class="mx-auto max-w-7xl p-0">
+      <div class="relative sm:overflow-hidden">
+        <div class="fixed inset-x-0 top-0 -z-10">
+          {{ $useDefault := true }}
+          {{ $homepageImage := "" }}
+          {{ with .Site.Params.defaultBackgroundImage }}
+            {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+              {{ $homepageImage = resources.GetRemote . }}
+            {{ else }}
+              {{ $homepageImage = resources.Get . }}
+            {{ end }}
+          {{ end }}
+          {{ with .Site.Params.homepage.homepageImage }}
+            {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+              {{ $homepageImage = resources.GetRemote . }}
+              {{ $useDefault = false }}
+            {{ else }}
+              {{ $homepageImage = resources.Get . }}
+              {{ $useDefault = false }}
+            {{ end }}
+          {{ end }}
+          {{ if $homepageImage }}
+            {{ $style := "" }}
+            {{ $defaultPosition := cond $useDefault site.Params.imagePosition false }}
+            {{ with $.Params.imagePosition | default $defaultPosition }}
+              {{ $style = printf "object-position: %s;" . }}
+            {{ end }}
+            <img
+              id="background-image"
+              class="nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
+              src="{{ $homepageImage.RelPermalink }}"
+              role="presentation"
+              {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
+            <div
+              class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
+            <div
+              class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-neutral-100 opacity-60 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800"></div>
+          {{ end }}
+        </div>
+
+
+
+
+        
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+            <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+                <article class="max-w-full prose dark:prose-invert">
+                {{ with .Title }}
+                    <header>
+                    <h1>{{ . | emojify }}</h1>
+                    </header>
+                {{ end }}
+                <section class="w-full" style="font-size: 1.75rem">{{ .Content }}</section>
+                </article>
+            </div>
+            <div class="mt-6 sm:mt-16 lg:mt-0 mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+                <div class="-me-48 md:-me-16 lg:relative lg:m-0 lg:h-full lg:px-0 w-full">
+                {{ $useDefault := true }}
+                {{ $homepageImage := "" }}
+                {{ with .Site.Params.defaultBackgroundImage }}
+                    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                    {{ $homepageImage = resources.GetRemote . }}
+                    {{ else }}
+                    {{ $homepageImage = resources.Get . }}
+                    {{ end }}
+                {{ end }}
+                {{ with .Site.Params.homepage.homepageImage }}
+                    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                    {{ $homepageImage = resources.GetRemote . }}
+                    {{ $useDefault = false }}
+                    {{ else }}
+                    {{ $homepageImage = resources.Get . }}
+                    {{ $useDefault = false }}
+                    {{ end }}
+                {{ end }}
+                <!-- RIGHT: Foreground image -->
+                {{ with .Params.heroImage }}
+                {{ $img := resources.Get . }}
+                {{ if $img }}
+                    <div class="flex justify-center md:justify-end">
+                    <img
+                        src="{{ $img.RelPermalink }}"
+                        class="max-h-[420px] w-auto rounded-xl"
+                        alt=""
+                        loading="eager" />
+                    </div>
+                {{ end }}
+                {{ end }}
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</article>
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>
+{{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
+  <div
+    id="background-blur"
+    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
+  {{ $backgroundBlur := resources.Get "js/background-blur.js" }}
+  {{ $backgroundBlur = $backgroundBlur | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
+  <script
+    type="text/javascript"
+    src="{{ $backgroundBlur.RelPermalink }}"
+    integrity="{{ $backgroundBlur.Data.Integrity }}"
+    data-blur-id="background-blur"
+    data-image-id="background-image"
+    {{ if $homepageImage }}data-image-url="{{ $homepageImage.RelPermalink }}"{{ end }}></script>
+{{ end }}

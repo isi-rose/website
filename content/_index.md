@@ -1,6 +1,7 @@
 
 +++
-title = 'Homepage'
+title = 'Isi Turner'
+heroImage= "mee.png"
 +++
 
-# Personal Branding, Poetry, and Ponderings
+**Personal Branding, Poetry, and Ponderings**
