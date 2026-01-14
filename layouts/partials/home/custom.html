@@ -46,8 +46,8 @@
 
 
         
-        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-            <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-12 lg:px-8">
+            <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-8 lg:px-0">
                 <article class="max-w-full prose dark:prose-invert">
                 {{ with .Title }}
                     <header>
@@ -57,7 +57,7 @@
                 <section class="w-full" style="font-size: 1.75rem">{{ .Content }}</section>
                 </article>
             </div>
-            <div class="mt-6 sm:mt-16 lg:mt-0 mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+            <div class="mt-6 sm:mt-16 lg:mt-0 mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-8 lg:px-0">
                 <div class="-me-48 md:-me-16 lg:relative lg:m-0 lg:h-full lg:px-0 w-full">
                 {{ $useDefault := true }}
                 {{ $homepageImage := "" }}
@@ -84,7 +84,7 @@
                     <div class="flex justify-center md:justify-end">
                     <img
                         src="{{ $img.RelPermalink }}"
-                        class="max-h-[420px] w-auto rounded-xl"
+                        class="max-h-[60vh] max-w-[90%] rounded-xl"
                         alt=""
                         loading="eager" />
                     </div>
