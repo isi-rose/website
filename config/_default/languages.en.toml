@@ -13,3 +13,6 @@ description = "Personal Branding, Poetry, and Ponderings"
 
 [author]
 name = "Isi Turner"
+
+["params.author"]
+image = "mee.png"

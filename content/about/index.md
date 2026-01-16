@@ -1,11 +1,14 @@
 +++
 date = '2026-01-08T11:18:31Z'
 draft = false
-title = 'About'
+title = 'About Me'
 disableRelated = true
+heroStyle = 'background'
+showHero = true
+layoutBackgroundHeaderSpace = false
 +++
 
-# About Me
+
 I'm Isi, a poetry-writing, nature-loving digital marketer who can't seem to keep their hair the same for more than a few months. (Genuinely, every time I speak at a conference, I seem to have new hair.)
 
 Described by my friends as an 'agent of mischief', I spend my weekends with my head in a book, my feet in walking boots, and a plethora of cat hair on whatever I'm wearing. 

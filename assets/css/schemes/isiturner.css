@@ -1,5 +1,5 @@
 :root { --color-neutral: 255, 255, 255;
---color-neutral-50:     225,247,228;
+--color-neutral-50:     255, 255, 255;
 --color-neutral-100:    165,231,174;
 --color-neutral-200:    255,255,255;
 --color-neutral-300:    255,255,255;
@@ -29,4 +29,13 @@
 --color-secondary-700:    224,56,131;
 --color-secondary-800:    207,32,110;
 --color-secondary-900:    172,27,91;
+}
+
+@font-face {
+    font-family: font;
+    src: url('/fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf');
+}
+
+html {
+    font-family: font;
 }

@@ -21,6 +21,7 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
+defaultFeaturedImage = "background.png"
 
 [header]
 layout = "fixed-fill"
@@ -33,7 +34,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "custom"
 showRecent = true
 showRecentItems = 6
 showMoreLink = false
@@ -99,7 +100,7 @@ showBreadcrumbs = false
 showViews = false
 showLikes = false
 showTableOfContents = false
-cardView = false
+cardView = true
 
 [term]
 showHero = false
