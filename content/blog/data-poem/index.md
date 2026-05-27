@@ -1,7 +1,7 @@
 ---
 title: "A Data Community Poem"
 date: "2026-05-27"
-draft: true #Dont forget to switch this to false
+draft: false 
 description: "Last week, at Data Grillen, I read a poem about the data community."
 tags: ["Poetry", "Community"]
 ---
@@ -29,7 +29,9 @@ I never would have thought to find myself a home in two such differing communiti
 
 Poetry.
 
-And data.<br>
+And data.
+
+~
 
 Poetry, I can understand,
 
@@ -37,8 +39,9 @@ You, too, can likely understand;
 
 My foot taps to the beat of a poem and 
 
-The words bleed from my chest like an open wound I don’t want to staunch.  
+The words bleed from my chest like an open wound I don’t want to staunch.
 
+~
 
 Poetry fuels me. 
 
@@ -63,6 +66,7 @@ I can look any poet in the eye and know that they see me,
 Know that there is something we share that is both 
 sacred and carefree.
 
+~
 
 And data?
 
@@ -99,6 +103,8 @@ This community has brought me joy.
 It’s brought me confidence, and love, 
 
 And the least toxic version of a ‘work family’.
+
+~
 
 So I suppose it maybe does make sense that 
 Data and poetry are my two communities,
